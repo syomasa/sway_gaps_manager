@@ -1,0 +1,23 @@
+{
+    "default": {
+        "inner": 10,
+        "outer": 10
+    },
+
+    "outputs": {
+        "DP-1": {"active_mode": 0, "workspace_profile": "widescreen", "assigned_workspaces": [1,2]},
+        "DP-3": {"active_mode": 0, "workspace_profile": "vertical monitor", "assigned_workspaces": [3]},
+        "HDMI-A-1": {"active_mode": 0, "workspace_profile": "tv", "assigned_workspaces": [4]}
+    },
+
+    "profiles": {
+        "widescreen": {"modes": [
+            {"name": "widescreen-centered", "horizontal": 550, "inner": 10},
+            {"name": "widescreen-small-gaps", "inner": 10, "outter": 10}
+        ]},
+
+        "vertical monitor": {"modes": [{"name": "widescreen-small-gaps", "inner": 10, "outter": 5}]},
+        "tv": {"modes":[{"name": "widescreen-small-gaps", "inner": 10, "outter": 10}]}
+    }
+
+}
